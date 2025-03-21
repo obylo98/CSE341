@@ -4,6 +4,6 @@ const router = require('express').Router();
 //     res.send('Hello World');
 // });
 
-router.use('/users', require('./users'));
+router.use('/contacts', require('./contacts'));
 
 module.exports = router;
