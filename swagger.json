@@ -5,7 +5,7 @@
     "title": "Contact API",
     "description": "API for managing contacts"
   },
-  "host": "https://contact-ar7k.onrender.com",
+  "host": "contact-ar7k.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
