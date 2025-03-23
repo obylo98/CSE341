@@ -1,0 +1,39 @@
+// LOCALHOST
+### GET ALL CONTACTS
+GET http://localhost:3000/contacts
+
+### GET SINGLE CONTACT
+GET http://localhost:3000/contacts/67dd998d44d889bb52ab5ce0
+
+### CREATE NEW CONTACT
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Andrew",
+    "lastName": "Onyekwere",
+    "email": "andy.onyekwere@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "1998-03-22"
+}
+
+###PUT CONTACT
+PUT http://localhost:3000/contacts/67dd998d44d889bb52ab5ce0
+Content-Type: application/json
+
+{
+    "firstName": "David",
+    "lastName": "Miller",
+    "email": "david.miller@gmail.com",
+    "favoriteColor": "Black",
+    "birthday": "1992-07-20"
+}   
+
+###DELETE CONTACT
+DELETE http://localhost:3000/contacts/66e3f74b9d87432448a60ae0
+
+###DELETE ALL CONTACTS
+DELETE http://localhost:3000/contacts
+
+###DELETE SINGLE CONTACT
+DELETE http://localhost:3000/contacts/67dff5216f3b62da20898180
